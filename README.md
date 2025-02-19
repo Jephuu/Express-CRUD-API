@@ -1,7 +1,7 @@
 # Express CRUD API with Swagger Documentation
 
 ## 🚀 Project Overview
-This is a simple CRUD API built using Express.js and MongoDB (hosted on MongoDB Atlas). It includes Swagger documentation for easy API testing.
+This is a simple CRUD API built using Express.js and MongoDB (hosted on MongoDB Compass). It includes Swagger documentation for easy API testing.
 
 ## 🛠 Technologies Used
 - Express.js
@@ -32,3 +32,11 @@ This is a simple CRUD API built using Express.js and MongoDB (hosted on MongoDB 
 1. Clone the repository:  
    ```sh
    git clone <repo-url>
+2. Install dependencies :
+   npm install
+3. Update the MongoDB Compass connection string inside server.js:
+    mongoose.connect("your_mongodb_compass_connection_string")
+4. Start the server
+   npm start
+5. Access Swagger UI: http://localhost:3000/api-docs
+   
